@@ -4,10 +4,10 @@ from flask import Flask
 from flask_cors import CORS
 
 from mongo_alchemy_sample import settings
+from mongo_alchemy_sample.extensions import db
 from mongo_alchemy_sample.settings import VIEWS
 from mongo_alchemy_sample_persons.models import Person
 from mongo_alchemy_sample_util.constants import ErrorMessages
-from mongo_alchemy_sample_util.database import db
 
 
 def create_app(config=None):

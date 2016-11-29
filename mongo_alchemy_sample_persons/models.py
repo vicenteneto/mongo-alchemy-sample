@@ -1,4 +1,4 @@
-from mongo_alchemy_sample_util.database import db
+from mongo_alchemy_sample.extensions import db
 from mongo_alchemy_sample_util.models import Model
 
 

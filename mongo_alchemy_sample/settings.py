@@ -6,8 +6,8 @@ VIEWS = (
 class Config(object):
     DEBUG = False
     TESTING = False
-    MONGOALCHEMY_DATABASE = 'mongo_alchemy_sample'
     WTF_CSRF_ENABLED = False
+    MONGOALCHEMY_DATABASE = 'mongo_alchemy_sample'
 
 
 class ProductionConfig(Config):

@@ -2,7 +2,7 @@ from datetime import date, datetime
 
 from bson.objectid import ObjectId
 
-from mongo_alchemy_sample_util.database import db
+from mongo_alchemy_sample.extensions import db
 
 
 class Model(db.Document):
